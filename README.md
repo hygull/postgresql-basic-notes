@@ -19,6 +19,17 @@ https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-full-outer-joi
 - PostgreSQL CROSS JOIN Clause(Cartesian Product of rows in 2 or more tables, nxm)
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cross-join/
 
+- PostgreSQl NATURAL JOIN Clause
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-natural-join/
+
+
+---
+
+# Examples
+
+- CROSS JOIN Sql
+
 ```sql
 SELECT *
 FROM T1
@@ -31,9 +42,7 @@ FROM T1
 CROSS JOIN T2;
 ```
 
-- PostgreSQl NATURAL JOIN Clause
-
-https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-natural-join/
+- NATURAL JOIN SQl 
 
 ```sql
 SELECT	* FROM products
