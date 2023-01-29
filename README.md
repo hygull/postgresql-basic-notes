@@ -25,3 +25,31 @@ FROM T1
 INNER JOIN T2 ON true;
 ```
 
+```sql
+SELECT *
+FROM T1
+CROSS JOIN T2;
+```
+
+- PostgreSQl NATURAL JOIN Clause
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-natural-join/
+
+```sql
+SELECT	* FROM products
+INNER JOIN categories USING (category_id);
+```
+
+The above statement is equivalent to
+
+```sql
+SELECT * FROM products
+NATURAL JOIN categories;
+```
+
+```sql
+SELECT * 
+FROM city
+NATURAL JOIN country;
+```
+
