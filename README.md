@@ -4,13 +4,13 @@ A repository which contains notes for PostgreSQL database i.e. (source or web li
 - PostgreSQL INNER JOIN Clause
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-inner-join/
 
-- PostgreSQl LEFT JOIN Clause (LEFT OUTER JOIN Clause)
+- PostgreSQL LEFT JOIN Clause (LEFT OUTER JOIN Clause)
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-left-join/
 
-- PostgreSQl RIGHT JOIN Clause (RIGHT OUTER JOIN Clause)
+- PostgreSQL RIGHT JOIN Clause (RIGHT OUTER JOIN Clause)
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-right-join/
 
-- PostgreSQl Self-JOIN (An example of Inner / Left / Right)
+- PostgreSQL Self-JOIN (An example of INNER / LEFT / RIGHT)
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-self-join/
 
 - PostgreSQL FULL OUTER JOIN (FULL JOIN) Clause 
@@ -19,8 +19,7 @@ https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-full-outer-joi
 - PostgreSQL CROSS JOIN Clause(Cartesian Product of rows in 2 or more tables, nxm)
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cross-join/
 
-- PostgreSQl NATURAL JOIN Clause
-
+- PostgreSQL NATURAL JOIN Clause
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-natural-join/
 
 
@@ -28,7 +27,7 @@ https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-natural-join/
 
 # Examples
 
-- CROSS JOIN Sql
+- CROSS JOIN SQL
 
 ```sql
 SELECT *
@@ -42,7 +41,7 @@ FROM T1
 CROSS JOIN T2;
 ```
 
-- NATURAL JOIN SQl 
+- NATURAL JOIN SQL
 
 ```sql
 SELECT	* FROM products
@@ -62,3 +61,4 @@ FROM city
 NATURAL JOIN country;
 ```
 
+Thanks in advance.
